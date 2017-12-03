@@ -1,11 +1,9 @@
 package models
 
-import scalikejdbc._
-import skinny.orm._
-
 import java.time.ZonedDateTime
 
-import scalikejdbc._, jsr310._ // java.time.ZonedDateTimeを利用するため、jsr310は手動でインポートしてください。
+import scalikejdbc._
+import scalikejdbc.jsr310._ // java.time.ZonedDateTimeを利用するため、jsr310は手動でインポートしてください。
 import skinny.orm._
 
 /**
